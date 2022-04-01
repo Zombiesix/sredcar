@@ -1,0 +1,10 @@
+ref是dom创建之后应用的，所有this.refs的使用必须在mounted之后
+
+webpack 中 eslint 的引用：
+1. 编写 .eslintrc.js 文件中；
+2. 在 webpack.config.js 中配置 eslint-webpack-plugin 插件；
+3. 下载 eslint-webpack-plugin 插件，和相关的依赖插件；
+
+vue 中禁止变量响应式：
+1. 使用 Object.freeze() 方法会让对象属性不可编辑，会报错；不应该是禁止了响应式；
+2. 可以将对象定义在组件的 export default 外头，这就是成组件的全局变量了，存在多个地方使用到这个组件，变量会被污染问题；

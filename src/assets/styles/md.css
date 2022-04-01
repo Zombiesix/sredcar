@@ -1,0 +1,42 @@
+/* 针对 .md 组件的公用样式 */
+.j-md-doc h2 {
+  margin: 2rem 0;
+}
+.j-md-doc h3 {
+  margin: 1.5rem 0;
+}
+.j-md-doc p {
+  margin: 1rem 0;
+}
+.j-md-doc p code {
+  color: #476582;
+  padding: 0.25rem 0.5rem;
+  margin: 0;
+  font-size: .85em;
+  background-color: rgba(27,31,35,.05);
+  border-radius: 3px;
+}
+
+/* javascript 代码块样式 */
+.j-language-javascript {
+  position: relative;
+  background-color: #282c34;
+  border-radius: 6px;
+}
+.j-language-javascript pre {
+  line-height: 1.4;
+  padding: 1.25rem 1.5rem;
+  margin: 0.85rem 0;
+  background-color: #282c34;
+  border-radius: 6px;
+  overflow: auto;
+}
+.j-language-javascript pre code.language-javascript {
+  color: #fff;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+code.language-javascript .hljs-keyword {
+  color: #cc99cd;
+}

@@ -1,0 +1,271 @@
+{
+  "data": [
+    {
+      "name": "Vue系列",
+      "list": [
+        {
+          "title": "说说你对SPA（单页应用）、MPA（多页面）的理解?",
+          "path": "spa"
+        },
+        {
+          "title": "说说你对Vue生命周期的理解?",
+          "path": "lifecycle"
+        },
+        {
+          "title": "为什么Vue中的v-if和v-for不建议一起用?",
+          "path": "if_for"
+        },
+        {
+          "title": "为什么data属性是一个函数而不是一个对象？",
+          "path": "data"
+        },
+        {
+          "title": "Vue中给对象添加新属性界面不刷新?",
+          "path": "data_object_add_attrs"
+        },
+        {
+          "title": "Vue组件间通信方式都有哪些?",
+          "path": "communication"
+        },
+        {
+          "title": "说说你对双向绑定的理解?",
+          "path": "bind"
+        },
+        {
+          "title": "说说你对nexttick的理解?",
+          "path": "nexttick"
+        },
+        {
+          "title": "你知道vue中key的原理吗？说说你对它的理解？",
+          "path": "key"
+        },
+        {
+          "title": "什么是虚拟DOM？如何实现一个虚拟DOM？说说你的思路",
+          "path": "vnode"
+        },
+        {
+          "title": "你了解vue的diff算法吗？说说看",
+          "path": "diff"
+        },
+        {
+          "title": "SPA（单页应用）首屏加载速度慢怎么解决？",
+          "path": "first_page_time"
+        },
+        {
+          "title": "SSR解决了什么问题？有做过SSR吗？你是怎么做的？",
+          "path": "ssr"
+        }
+      ]
+    },
+    {
+      "name": "Vue3系列",
+      "list": [
+        {
+          "title": "Vue3.0的设计目标是什么？做了哪些优化?",
+          "path": "goal"
+        },
+        {
+          "title": "你了解Vue3.0吗？和Vue2.0有什么区别？Vue3.0 性能提升主要是通过哪几方面体现的？",
+          "path": "performance"
+        }
+      ]
+    },
+    {
+      "name": "ES6系列",
+      "list": [
+        {
+          "title": "说说var、let、const之间的区别",
+          "path": "var_let_const"
+        },
+        {
+          "title": "你是怎么理解ES6中 Promise的？使用场景？",
+          "path": "promise"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript系列",
+      "list": [
+        {
+          "title": "说说JavaScript中的数据类型？存储上的差别？",
+          "path": "data_type"
+        },
+        {
+          "title": "深拷贝浅拷贝的区别？如何实现一个深拷贝？",
+          "path": "copy"
+        },
+        {
+          "title": "说说你对闭包的理解？闭包使用场景",
+          "path": "closure"
+        },
+        {
+          "title": "说说你对作用域链的理解",
+          "path": "scope"
+        },
+        {
+          "title": "JavaScript原型，原型链 ? 有什么特点？",
+          "path": "prototype"
+        },
+        {
+          "title": "Javascript如何实现继承？",
+          "path": "inherit"
+        },
+        {
+          "title": "谈谈this对象的理解",
+          "path": "this"
+        },
+        {
+          "title": "说说JavaScript中的事件模型",
+          "path": "odel"
+        },
+        {
+          "title": "typeof 与 instanceof 区别",
+          "path": "typeof_instanceof"
+        },
+        {
+          "title": "说说new操作符具体干了什么？",
+          "path": "new"
+        },
+        {
+          "title": "bind、call、apply 区别？如何手写代码实现?",
+          "path": "bind_call_apply"
+        },
+        {
+          "title": "说说你对浏览器事件循环的理解",
+          "path": "event_loop"
+        },
+        {
+          "title": "说说 JavaScript 中内存泄漏的几种情况？",
+          "path": "memory_leak"
+        }
+      ]
+    },
+    {
+      "name": "CSS系列",
+      "list": [
+        {
+          "title": "说说你对盒子模型的理解?",
+          "path": "box"
+        },
+        {
+          "title": "css选择器有哪些？优先级？哪些属性可以继承？",
+          "path": "selector"
+        },
+        {
+          "title": "元素水平垂直居中的方法有哪些？",
+          "path": "center"
+        },
+        {
+          "title": "如何实现两栏布局？三栏布局呢？",
+          "path": "column_layout"
+        }
+      ]
+    },
+    {
+      "name": "Webpack系列",
+      "list": [
+        {
+          "title": "webpack主要由哪些部分组成？",
+          "path": "webpack"
+        },
+        {
+          "title": "说说对webpack的理解，webpack的构建流程?",
+          "path": "build_process"
+        },
+        {
+          "title": "说说Loader和Plugin的理解、区别区别？编写Loader，Plugin的思路？",
+          "path": "loader_plugin"
+        },
+        {
+          "title": "说说webpack proxy工作原理？为什么能解决跨域?",
+          "path": "proxy"
+        },
+        {
+          "title": "Webpack中是如何做热更新的",
+          "path": "whot"
+        }
+      ]
+    },
+    {
+      "name": "HTTP系列",
+      "list": [
+        {
+          "title": "说说地址栏输入 URL 敲下回车后发生了什么？",
+          "path": "after_url"
+        }
+      ]
+    },
+    {
+      "name": "NodeJS系列",
+      "list": [
+        {
+          "title": "说说 Node.js 有哪些全局对象？",
+          "path": "global"
+        }
+      ]
+    },
+    {
+      "name": "React系列",
+      "list": [
+        {
+          "title": "说说对React的理解？有哪些特性？",
+          "path": "eact"
+        }
+      ]
+    },
+    {
+      "name": "版本控制系列",
+      "list": [
+        {
+          "title": "说说你对版本管理的理解？常用的版本管理工具有哪些？",
+          "path": "control"
+        }
+      ]
+    },
+    {
+      "name": "操作系统系列",
+      "list": [
+        {
+          "title": "说说什么是进程？什么是线程？区别？",
+          "path": "thread_process"
+        }
+      ]
+    },
+    {
+      "name": "TypeScript 系列",
+      "list": [
+        {
+          "title": "说说你对 TypeScript 的理解？与 JavaScript 的区别？",
+          "path": "typescript_javascript"
+        }
+      ]
+    },
+    {
+      "name": "算法与数据结构系列",
+      "list": [
+        {
+          "title": "字符串相关算法",
+          "path": "str_lgorithm"
+        }
+      ]
+    },
+    {
+      "name": "小程序系列",
+      "list": [
+        {
+          "title": "说说你对微信小程序的理解？优缺点？",
+          "path": "applet"
+        }
+      ]
+    },
+    {
+      "name": "设计模式系列",
+      "list": [
+        {
+          "title": "你对PC端、APP端项目的理解、区别？",
+          "path": "PC_APP"
+        }
+      ]
+    }
+  ]
+}
